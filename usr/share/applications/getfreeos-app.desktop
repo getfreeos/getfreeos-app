@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=GetFreeOS Welcome
+GenericName=GetFreeOS Welcome
+X-GNOME-FullName=XGetFreeOS Welcome
+Comment=GetFreeOS Welcome
+Exec=/usr/local/bin/getfreeos-app
+Icon=/usr/share/icons/scalable/apps/getfreeoslinux.svg
+Terminal=false
+Type=Application
+Categories=GTK;GNOME;Utility;Settings;Security;X-GNOME-Settings-Panel;X-GNOME-SystemSettings;X-Unity-Settings-Panel;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
+Keywords=tweak;tool;
+StartupNotify=true
