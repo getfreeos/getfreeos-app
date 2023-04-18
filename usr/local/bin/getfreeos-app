@@ -1,7 +1,7 @@
 #!/bin/bash
 yad --title "GetFreeOS Welcome" --form --columns=2 --width=480 --height=150 --text="Use this tool to configure your system. Now available in the AppMenu under <b>Utilities</b> or by typing <b>getfreeos-app</b> in Terminal." --image=/usr/share/icons/scalable/apps/getfreeoslinux.png  \
 --field="<b>Install/Enable H-Block</b>":fbtn "xterm --noclose -e sh -c 'paru -S hblock --noconfirm && sudo hblock'" \
---field="<b>Fix chaotic-keyring</b>":fbtn 'xterm --noclose -e sh /usr/local/bin/data/0-chaotic-keyring' \
+--field="<b>Fix chaotic-keyring</b>":fbtn "xterm --noclose -e sh /usr/local/bin/data/0-chaotic-keyring'" \
 --field="<b>Fix Arch GPG Keys</b>":fbtn "xterm --noclose -e sh '/usr/local/bin/2-keyfix'" \
 --field="<b>Update Arch Mirrors</b>":fbtn "xterm --noclose -e sh '/usr/local/bin/data/1-mirrors'" \
 --field="<b>Disable Autostart</b>":fbtn "xterm -e 'rm $HOME/.config/autostart/getfreeos-app.desktop'" \
